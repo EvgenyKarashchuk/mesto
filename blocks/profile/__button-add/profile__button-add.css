@@ -10,3 +10,13 @@
   align-items: center;
   justify-content: center;
 }
+@media screen and (min-width: 550px) {
+  .profile__button-add {
+    width: 350px;
+  }
+}
+@media screen and (min-width: 620px) {
+  .profile__button-add {
+    width: 150px;
+  }
+}
