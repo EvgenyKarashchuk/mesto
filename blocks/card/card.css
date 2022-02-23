@@ -1,0 +1,12 @@
+.card {
+  flex: 100%;
+  min-height: 361px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.card:not(:last-of-type) {
+  margin-bottom: 20px;
+}
