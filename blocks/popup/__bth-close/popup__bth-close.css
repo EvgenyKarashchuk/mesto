@@ -1,0 +1,23 @@
+.popup__bth-close {
+  width: 20px;
+  height: 20px;
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url(../../../images/close-icon.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  position: absolute;
+  top: -35px;
+  right: 0;
+}
+.popup__bth-close:hover {
+  opacity: 0.6;
+}
+@media screen and (min-width: 768px) {
+  .popup__bth-close {
+    width: 32px;
+    height: 32px;
+    right: -35px;
+  }
+}

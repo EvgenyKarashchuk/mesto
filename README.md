@@ -1,17 +1,23 @@
-# Проект: Место
+# Интерактивный сайт MESTO
 
-### Обзор
+## _Сайт позволяет добовлять и исправлять данные_
 
-* Figma
-* Картинки
+### Содержание
 
-**Figma**
+- Логотип
+- Аватарка
+- Личные данные
+- Добовления картинок
 
-* [Ссылка на макет в Figma](https://www.figma.com/file/2cn9N9jSkmxD84oJik7xL7/JavaScript.-Sprint-4?node-id=0%3A1)
+---
 
-**Картинки**
+### При создании сайта использовались следующии технологии:
 
-Доставать картинки предстоит из Фигмы. Это расхожая практика, поэтому полезно потренироваться.
-Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
+- Файловая структура [BEM Nested](https://ru.bem.info/methodology/filestructure/).
+- Структура построения сеток [Flex](https://developer.mozilla.org/ru/docs/Web/CSS/flex) и [Grid](https://developer.mozilla.org/ru/docs/Web/CSS/CSS_Grid_Layout/Basic_Concepts_of_Grid_Layout).
+- Сайт адаптирован под разные расширения экрана.
+- За интерективность сайта отвечает [JavaScript](https://ru.wikipedia.org/wiki/JavaScript).
 
-Удачи!
+---
+
+#### [Ссылка на GitHub](https://evgenykarashchuk.github.io/mesto/index.html)

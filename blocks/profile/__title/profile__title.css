@@ -1,0 +1,13 @@
+.profile__title {
+  margin: 0 0 14px 0;
+  font-weight: 500;
+  font-size: 27px;
+  line-height: 33px;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .profile__title {
+    text-align: start;
+    margin: 0 0 17px 0;
+  }
+}
