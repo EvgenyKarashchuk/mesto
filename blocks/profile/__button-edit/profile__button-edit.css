@@ -12,3 +12,6 @@
   top: 9px;
   right: -30px;
 }
+.profile__button-edit:hover {
+  opacity: 0.6;
+}

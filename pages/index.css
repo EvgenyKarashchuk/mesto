@@ -4,8 +4,11 @@
 /* style block Page */
 @import url(../blocks/page/page.css);
 
-/* style bock Container */
+/* style block Container */
 @import url(../blocks/container/container.css);
+
+/* style block Transition */
+@import url(../blocks/transition/transition.css);
 
 /* style block Header */
 @import url(../blocks/header/header.css);
@@ -32,6 +35,7 @@
 @import url(../blocks/card/__row/card__row.css);
 @import url(../blocks/card/__title/card__title.css);
 @import url(../blocks/card/__image-heart/card__image-heart.css);
+@import url(../blocks/card/__image-heart/_active/card__image-heart_active.css);
 
 /* style block Footer */
 @import url(../blocks/footer/__title/footer__title.css);
