@@ -11,6 +11,9 @@
   top: -35px;
   right: 0;
 }
+.popup__bth-close:hover {
+  opacity: 0.6;
+}
 @media screen and (min-width: 768px) {
   .popup__bth-close {
     width: 32px;
