@@ -9,6 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 .profile__button-add:hover {
   opacity: 0.6;

@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  border-bottom: 1px solid #545454e0;
 }
 @media screen and (min-width: 768px) {
   .header {

@@ -1,8 +1,10 @@
-.card__image-heart {
+.card__button-heart {
   background-image: url(../../../images/heart.svg);
   background-position: center;
   background-repeat: no-repeat;
-  padding: 3px;
+  background-color: #fff;
+  padding: 14px;
+  border: none;
   width: 22px;
   height: 19px;
   -webkit-transition: opacity 0.3s linear;
@@ -10,7 +12,8 @@
   -ms-transition: opacity 0.3s linear;
   -o-transition: opacity 0.3s linear;
   transition: opacity 0.3s linear;
+  cursor: pointer;
 }
-.card__image-heart:hover {
+.card__button-heart:hover {
   opacity: 0.5;
 }

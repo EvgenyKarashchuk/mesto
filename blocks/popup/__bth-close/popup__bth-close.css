@@ -2,7 +2,7 @@
   width: 20px;
   height: 20px;
   background-color: rgba(0, 0, 0, 0);
-  background-image: url(../../../images/close-icon.png);
+  background-image: url(../../../images/close-Icon.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -10,6 +10,7 @@
   position: absolute;
   top: -35px;
   right: 0;
+  cursor: pointer;
 }
 .popup__bth-close:hover {
   opacity: 0.6;

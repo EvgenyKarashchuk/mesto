@@ -1,10 +1,11 @@
-.popup__bth-save {
+.form__bth-save {
   margin-top: 48px;
   height: 45px;
   background: #000;
   border-radius: 2px;
   border: 0;
+  cursor: pointer;
 }
-.popup__bth-save:hover {
+.form__bth-save:hover {
   opacity: 0.8;
 }
