@@ -10,6 +10,8 @@ const profileWork = document.querySelector('.profile__subtitle');
 
 const openPopup = function(){
   popup.classList.add('popup_opened');
+  inputName.value = profileName.textContent;
+  inputWork.value = profileWork.textContent;
 };
 const closePopup = function(){
   popup.classList.remove('popup_opened');
@@ -18,8 +20,9 @@ const formSubmitHandler = function(evt) {
   evt.preventDefault();
   profileName.textContent = inputName.value;
   profileWork.textContent = inputWork.value;
+  closePopup();
 };
 profileButtonEdit.addEventListener('click', openPopup);
 popupBthClose.addEventListener('click', closePopup);
 form.addEventListener('submit', formSubmitHandler);
-formBthSave.addEventListener('click', closePopup);
+
