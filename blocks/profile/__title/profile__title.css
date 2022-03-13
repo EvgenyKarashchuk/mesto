@@ -1,5 +1,5 @@
 .profile__title {
-  margin: 0 0 14px 0;
+  margin: 0 10px 14px 0;
   font-weight: 500;
   font-size: 27px;
   line-height: 33px;
@@ -7,12 +7,14 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  max-width: 190px;
 }
 @media screen and (min-width: 768px) {
   .profile__title {
     text-align: start;
-    margin: 0 0 17px 0;
+    margin: 0 18px 17px 0;
     font-size: 42px;
     line-height: 48px;
+    max-width: 294px;
   }
 }
