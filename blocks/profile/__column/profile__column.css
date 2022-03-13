@@ -14,8 +14,3 @@
     margin: 0;
   }
 }
-@media screen and (min-width: 768px) {
-  .profile__column {
-    margin-left: -20px;
-  }
-}
